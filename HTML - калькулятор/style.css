@@ -2,7 +2,6 @@ html{
     box-sizing: border-box;
     height: 100%;
 }
-
 *,
 *::before,
 *::after{
@@ -10,7 +9,6 @@ html{
     margin: 0;
     padding: 0;
 }
-
 body{
     align-items: center;
     background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
@@ -20,7 +18,6 @@ body{
     height: inherit;
     justify-content: center;
 }
-
 .wrapper{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
@@ -35,7 +32,6 @@ body{
     height: 535px;
     padding: 20px 35px;
 }
-
 .screen{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
@@ -55,7 +51,6 @@ body{
     justify-content: space-between;
     margin: 5% 0;
 }
-
 .calc-button{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
@@ -69,7 +64,6 @@ body{
     font-size: 24px;
     height: 65px;
 }
-
 .calc-button:last-child{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
@@ -80,24 +74,19 @@ body{
     color: #fff;
     background: #d72880;
 }
-
 .calc-button:last-child:hover{
     background-color: inherit;
     color: inherit;
 }
-
 .calc-button:hover{
     background-color: inherit;
 }
-
 .calc-button:active{
     background-color: #ffef78;
 }
-
 .double{
     flex-basis: 47%;
 }
-
 .triple{
     flex-basis: 73%;
 }
